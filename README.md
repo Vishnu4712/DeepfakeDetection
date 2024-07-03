@@ -2,7 +2,7 @@
 
 ## Video and Audio Deepfake Detection Project
 
-### Table of Contents
+## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
 3. [Setup Instructions](#setup-instructions)
@@ -13,7 +13,7 @@ This project implements a system for detecting deepfake videos and audio using p
 
 ## *Features*
 
-### Deepfake Video Detection
+### 1. Deepfake Video Detection
 
 1. **Upload a Video File:**
    - Use the provided file upload widget to upload a video file (.mp4, .mov).
@@ -27,7 +27,7 @@ This project implements a system for detecting deepfake videos and audio using p
 
 ![Deepfake Video](Images/i1.jpg)
 
-### Deepfake Audio Detection
+### 2. Deepfake Audio Detection
 
 1. **Upload an Audio File:**
    - Use the file upload widget to upload an audio file (.wav, .mp3).
@@ -39,7 +39,7 @@ This project implements a system for detecting deepfake videos and audio using p
 3. **View Analysis Results:**
    - Results provide insights into the authenticity of the audio file, indicating if it contains suspicious content.
 
-### Livestream Video Analysis
+### 3. Livestream Video Analysis
 
 1. **Access Webcam for Real-Time Analysis:**
    - Navigate to the "Livestream Video" section.
