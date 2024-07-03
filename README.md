@@ -25,7 +25,7 @@ This project implements a system for detecting deepfake videos and audio using p
 3. **View Results:**
    - Displayed results include the predicted label ('REAL' or 'FAKE') and the confidence score indicating the model's prediction certainty.
 
-(images/i1.jpg)
+![Deepfake Video](images/i1.jpg)
 
 ### Deepfake Audio Detection
 
@@ -49,7 +49,7 @@ This project implements a system for detecting deepfake videos and audio using p
    - The application starts streaming video from your webcam.
    - Real-time analysis is performed to detect deepfake content as the video streams.
 
-(images/i2.jpg)
+![Livestream Analysis](images/i2.jpg)
 
 ## Setup Instructions
 
