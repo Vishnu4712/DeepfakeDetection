@@ -1,12 +1,17 @@
-# #AuthentiCheck
+# AuthentiCheck
 
 ## Video and Audio Deepfake Detection Project
 
-## Overview
+### Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Setup Instructions](#setup-instructions)
+
+## *Overview*
 
 This project implements a system for detecting deepfake videos and audio using pretrained models. It provides functionalities for video and audio analysis and livestream video processing. The application utilizes Streamlit for the web interface, PyAV for video handling, PyTorch for video deepfake detection, and other necessary libraries.
 
-## Features
+## *Features*
 
 ### Deepfake Video Detection
 
@@ -19,6 +24,8 @@ This project implements a system for detecting deepfake videos and audio using p
 
 3. **View Results:**
    - Displayed results include the predicted label ('REAL' or 'FAKE') and the confidence score indicating the model's prediction certainty.
+
+(images/i1.jpg)
 
 ### Deepfake Audio Detection
 
@@ -41,6 +48,9 @@ This project implements a system for detecting deepfake videos and audio using p
 2. **Perform Real-Time Deepfake Detection:**
    - The application starts streaming video from your webcam.
    - Real-time analysis is performed to detect deepfake content as the video streams.
+
+(images/i2.jpg)
+
 ## Setup Instructions
 
 ### Prerequisites
