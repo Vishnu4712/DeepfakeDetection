@@ -22,7 +22,7 @@ AuthentiCheck is a robust system designed for detecting deepfake videos and audi
 
 2. **Analyze Video for Deepfake Content:**
    - Click the "Check" button to analyze the uploaded video for deepfake content.
-   - The application uses a pretrained VideoMAE model to perform the analysis.
+
 
 3. **View Results:**
    - Displayed results include the predicted label ('REAL' or 'FAKE') and the confidence score indicating the model's prediction certainty.
