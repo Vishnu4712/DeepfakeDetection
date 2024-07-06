@@ -5,13 +5,15 @@
 ## Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
-3. [Setup Instructions](#setup-instructions)
+3. [Preprocessing Method](#preprocessing-method)
+4. [Tech Stack](#tech-stack)
+5. [Setup Instructions](#setup-instructions)
 
-## *Overview*
+## Overview
 
-This project implements a system for detecting deepfake videos and audio using pretrained models. It provides functionalities for video and audio analysis and livestream video processing. The application utilizes Streamlit for the web interface, PyAV for video handling, PyTorch for video deepfake detection, and other necessary libraries.
+AuthentiCheck is a robust system designed for detecting deepfake videos and audio using advanced pretrained models. The project offers functionalities for video and audio analysis, including real-time livestream video processing. It leverages Streamlit for the web interface, PyTorch for video deepfake detection, and several other essential libraries.
 
-## *Features*
+## Features
 
 ### 1. Deepfake Video Detection
 
@@ -51,6 +53,20 @@ This project implements a system for detecting deepfake videos and audio using p
 
 ![Livestream Analysis](Images/i2.jpg)
 
+## *Preprocessing Method*
+- **YOLOv8 Custom Fine-Tuned for Face Detection:**
+    - We used YOLOv8, custom fine-tuned for face detection, to preprocess the video frames.
+    - **OpenCV Built-In Object Tracking for Face Tracking:**
+        - After detecting the face using YOLOv8, we utilized OpenCV's built-in object tracking for continuous face tracking across frames. This approach avoids the need for detecting the face in every frame, saving processing time and improving efficiency.
+
+## Tech Stack
+
+- **ViViT Transformer Model:** Used to extract intricate features from video data, ensuring high accuracy in deepfake detection.
+- **Wav2vec Model:** Employed for analyzing audio features, adding an extra layer of verification and enhancing detection capabilities.
+- **Late Fusion Technique:** Used for the fusion of video and audio features, allowing comprehensive and accurate classification.
+- **Streamlit:** Utilized for deploying the solution, providing a user-friendly interface for both real-time and uploaded video analysis.
+- **PyTorch:** Employed for implementing deep learning models
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -64,4 +80,4 @@ This project implements a system for detecting deepfake videos and audio using p
   
 - **Web Interface:** Streamlit provides an intuitive web interface where users can interact with the application directly in their browser. Make sure to handle errors, exceptions, and user interactions gracefully within your Streamlit application logic.
 
-
+![ViViT](Images/img_vivit.png)
